@@ -1,8 +1,14 @@
 ﻿{
 	"Music": [
 		{
+			"Id": "KKsonata",
+			"File": "Music/KKsonata.wav",
+			"Loop": false,
+			"Preload": true
+		},
+		{
 			"Id": "doremi",
-			"File": "Audio/DoReMi.wav",
+			"File": "Music/DoReMi.wav",
 			"Loop": false,
 			"Preload": true
 		},

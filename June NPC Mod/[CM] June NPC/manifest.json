@@ -1,8 +1,8 @@
 ﻿{
-  "Name": "June NPC - Custom Audio (no music)",
+  "Name": "June NPC - Custom Music (some music)",
   "Author": "ch20youk",
   "Version": "1.1.1",
-  "Description": "Adds Custom Audio for NPC June",
+  "Description": "Adds Custom Music for NPC June",
   "UniqueID": "ch20youk.JuneNPCCM",
   "UpdateKeys": [ "Nexus:10100" ],
   "ContentPackFor": {

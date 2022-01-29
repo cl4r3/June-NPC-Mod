@@ -1,6 +1,15 @@
 {
   "Format": "1.24.0",
 
+  // Config for music versions only
+  "ConfigSchema": {
+    "JuneMusic": {
+      "AllowValues": "on, off",
+      "Default": "on",
+      "Description": "Whether June plays music in the lobby"
+    }
+  },
+
   // Map for fourteen heart event
   "CustomLocations": [
     {
@@ -252,7 +261,19 @@
         "HasSeenEvent": 94620000,
         "HasMod": "Rafseazz.RSVCP"
       }
-    }
+    },
+
+        //---Piano Music (music versions only)---//
+    {
+      "LogName": "June Music Data",
+      "Action": "Include",
+      "FromFile": "Data/MapData/MapMusic.json",
+      "When": {
+        "JuneMusic": "on",
+        "HasSeenEvent": 94620000,
+        "HasMod": "Rafseazz.RSVCP"
+      }
+    },
 
   ]
 }
