@@ -1,0 +1,19 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Farmhouse",
+      "Entries": {
+        "94620141/e 94620010/L/f June 3500/O June/p June/t 1700 2200/Hn Island_Resort": "playful/-1000 -1000/farmer 10 14 3 June 8 14 3/makeInvisible 5 5 5 1/makeInvisible 8 14 5 1/skippable/faceDirection farmer 3/faceDirection June 1/viewport -100 -100 true unfreeze/pause 1000/emote June 40/speak June \"{{i18n:i18n.fourteen_heart.1}}\"/emote farmer 8/pause 300/faceDirection June 1/speak June \"{{i18n:i18n.fourteen_heart.2}}\"/emote farmer 32/pause 300/speak June \"{{i18n:i18n.fourteen_heart.3}}\"/pause 400/faceDirection June 2/emote June 28/speak June \"{{i18n:i18n.fourteen_heart.4}}\"/emote June 40/pause 700/move June 1 0 1/speak June \"{{i18n:i18n.fourteen_heart.5}}\"/emote farmer 32/pause 300/speak June \"{{i18n:i18n.fourteen_heart.6}}\"/pause 500/faceDirection farmer 2/animate farmer false true 100 102 103/pause 500/emote June 16/pause 700/globalFade/viewport -1000 -1000/end dialogue June \"{{i18n:i18n.fourteen_heart.after.1}}\""
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "When": { "Weather: island": "Sun"},
+      "Entries": {
+        "94620142/e 94620141/F/w sunny/t 2000 2400": "ocean/29 35/farmer 26 32 2 June 29 35 2 Pika 14 16 2/skippable/addLantern 735 31 34 3/fade/move farmer 0 3 2/move farmer 2 0 1/faceDirection June 3/speak June \"{{i18n:i18n.fourteen_heart.7}}\"/emote farmer 8/speak June \"{{i18n:i18n.fourteen_heart.8}}\"/playSound seagulls/emote June 32/pause 200/globalFade/viewport -1000 -1000/removeObject 31 34/changeToTemporaryMap Custom_JuneNPC_ResortDate/viewport -1000 -1000/warp farmer 19 33/addObject 19 26 737 6/changePortrait June Beach/changeSprite June Beach/warp Pika 14 21/warp June 18 29/faceDirection June 1/fade/viewport 19 27/playMusic moonlightJellies/pause 1000/move farmer 0 -4 3/speak June \"{{i18n:i18n.fourteen_heart.9}}\"/speak Pika \"{{i18n:i18n.fourteen_heart.10}}\"/emote June 60/pause 400/faceDirection June 0/speak June \"{{i18n:i18n.fourteen_heart.11}}\"/faceDirection June 1/pause 500/speak June \"{{i18n:i18n.fourteen_heart.12}}\"/speak June \"$q 0 null#  #$r 0 0 event14_1#{{i18n:i18n.fourteen_heart.13}}#$r 0 0 event14_2#{{i18n:i18n.fourteen_heart.14}}#$r 0 0 event14_3#{{i18n:i18n.fourteen_heart.15}}\"/pause 500/emote June 32/speak June \"{{i18n:i18n.fourteen_heart.19}}\"/emote farmer 20/pause 1000/viewport move 0 -1 5000/pause 1000/globalFade/viewport -1000 -1000/speak June \"{{i18n:i18n.fourteen_heart.20}}\"/pause 1000/changeLocation IslandFarmHouse/end dialogueWarpOut June \"{{i18n:i18n.fourteen_heart.after.2}}\""
+      }
+    },
+  ]
+}

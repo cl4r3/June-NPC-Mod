@@ -1,0 +1,519 @@
+{
+"Changes": [
+
+	//Conversation Topics Dialogue
+	{
+		"LogName": "Keahi Prank - June",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/June",
+		"Entries": {
+			"keahi_prank": "{{i18n:i18n.keahi_prank.june}}",
+		},
+	},
+	{
+		"LogName": "June Topic - June",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/June",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.june}}",
+		},
+	},
+
+	//RSV Girls
+	{
+		"LogName": "June Topic - Alissa",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Alissa",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.alissa}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Corine",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Corine",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.corine}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Flor",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Flor",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.flor}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Maddie",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Maddie",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.maddie}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Ysabelle",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Ysabelle",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.ysabelle}}",
+		},
+	},
+
+	//RSV Boys
+	{
+		"LogName": "June Topic - Ian",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Ian",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.ian}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Jeric",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jeric",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.jeric}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Kenneth",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Kenneth",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.kenneth}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Philip",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Philip",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.philip}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Shiro",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Shiro",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.shiro}}",
+		},
+	},
+
+	//RSV Citizens
+	{
+		"LogName": "June Topic - Aguar",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Aguar",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.aguar}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Bert",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Bert",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.bert}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Ezekiel",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Ezekiel",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.ezekiel}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Freddie",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Freddie",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.freddie}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Jio",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jio",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.jio}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Kiwi",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Kiwi",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.kiwi}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Lenny",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Lenny",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.lenny}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Lola",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Lola",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.lola}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Olga",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Olga",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.olga}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Pika",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Pika",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.pika}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Richard",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Richard",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.richard}}",
+		},
+	},
+
+
+	//Kids
+	{
+		"LogName": "June Topic - Keahi",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Keahi",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.keahi}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Jas",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jas",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.jas}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Vincent",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Vincent",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.vincent}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Trinnie",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Trinnie",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.trinnie}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Yuuma",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Yuuma",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.yuuma}}",
+		},
+	},
+
+	//RSV New Characters (incomplete)
+	{
+		"LogName": "June Topic - Ariah",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Ariah",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.ariah}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Daia",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Daia",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.daia}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Faye",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Faye",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.faye}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Louie",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Louie",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.louie}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Maive",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Maive",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.maive}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Sonny",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sonny",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.sonny}}",
+		},
+	},
+
+	//Vanilla Girls
+	{
+		"LogName": "June Topic - Abigail",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Abigail",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.abigail}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Emily",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Emily",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.emily}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Haley",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Haley",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.haley}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Leah",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Leah",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.leah}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Maru",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Maru",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.maru}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Penny",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Penny",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.penny}}",
+		},
+	},
+
+	//Vanilla Boys
+	{
+		"LogName": "June Topic - Alex",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Alex",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.alex}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Elliott",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Elliott",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.elliott}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Harvey",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Harvey",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.harvey}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Sam",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sam",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.sam}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Sebastian",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sebastian",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.sebastian}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Shane",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Shane",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.shane}}",
+		},
+	},
+
+	//Vanilla Villagers
+	{
+		"LogName": "June Topic - Caroline",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Caroline",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.caroline}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Clint",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Clint",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.clint}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Demetrius",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Demetrius",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.demetrius}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Evelyn",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Evelyn",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.evelyn}}",
+		},
+	},
+	{
+		"LogName": "June Topic - George",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/George",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.george}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Gus",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Gus",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.gus}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Jodi",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jodi",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.jodi}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Kent",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Kent",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.kent}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Lewis",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Lewis",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.lewis}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Linus",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Linus",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.linus}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Marnie",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Marnie",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.marnie}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Pam",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Pam",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.pam}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Pierre",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Pierre",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.pierre}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Robin",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Robin",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.robin}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Willy",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Willy",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.willy}}",
+		},
+	},
+	{
+		"LogName": "June Topic - Wizard",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Wizard",
+		"Entries": {
+			"june_arrival": "{{i18n:i18n.june_arrival.wizard}}",
+		},
+	}
+]
+}

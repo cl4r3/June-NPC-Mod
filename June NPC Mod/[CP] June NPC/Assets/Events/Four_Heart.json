@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_Ridgeside_RidgesideVillage",
+      "Entries": {
+        "94620004/f June 1000/z summer/z spring/e 94620002/t 830 1200/d Tue/w sunny": "playful/115 30/farmer 124 30 3 June 115 22 2 Faye 90 38 2 Pika 94 37 0 Irene 91 40 0 Flor 89 45 2/skippable/move June 0 8 2 true/move farmer -7 0 3 true/pause 4000/halt/emote June 16/faceDirection June 1/pause 300/speak June \"{{i18n:i18n.four_heart.1}}\"/pause 500/speak June \"{{i18n:i18n.four_heart.2}}\"/emote farmer 32/speak June \"{{i18n:i18n.four_heart.3}}\"/pause 300/globalFade/viewport -1000 -1000/warp farmer 87 38/positionOffset farmer -32 20/warp June 85 38/faceDirection June 2/faceDirection farmer 2/fade/viewport 86 39/pause 1000/faceDirection June 1/pause 400/faceDirection farmer 3/pause 400/speak June \"{{i18n:i18n.four_heart.4}}\"/pause 400/speak June \"{{i18n:i18n.four_heart.5}}\"/speak June \"{{i18n:i18n.four_heart.6}}\"/faceDirection June 2/speak June \"{{i18n:i18n.four_heart.7}}\"/emote June 16/faceDirection June 1/emote June 40/speak June \"{{i18n:i18n.four_heart.8}}\"/speak June \"$q 1 null \"#{{i18n:i18n.four_heart.9}}#$r 1 50 positive4#{{i18n:i18n.four_heart.10}}#$r 1 0 neutral4#{{i18n:i18n.four_heart.11}}#$r 1 25 flirty4#{{i18n:i18n.four_heart.12}}\"/faceDirection June 2/pause 500/speak June \"{{i18n:i18n.four_heart.16}}\"/pause 1500/emote June 16/speak June \"{{i18n:i18n.four_heart.17}}\"/pause 700/move June -1 0 2/move June 0 10 2 true/globalFade/viewport -1000 -1000/end dialogue June \"{{i18n:i18n.four_heart.after}}\""
+      }
+    }
+  ]
+}

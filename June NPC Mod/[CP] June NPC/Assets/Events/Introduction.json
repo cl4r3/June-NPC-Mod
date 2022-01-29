@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "94620000/t 600 2600/z spring/z summer": "continue/64 15/farmer 64 16 2 Richard 64 18 0/broadcastEvent/pause 1500/speak Richard \"{{i18n:i18n.intro.1}}\"/pause 500/speak Richard \"{{i18n:i18n.intro.2}}\"/pause 300/speak Richard \"{{i18n:i18n.intro.3}}\"/pause 300/addConversationTopic june_arrival 0/end"
+      }
+    }
+  ]
+}

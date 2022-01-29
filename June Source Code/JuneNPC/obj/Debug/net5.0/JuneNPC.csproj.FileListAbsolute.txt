@@ -1,0 +1,10 @@
+C:\Users\Clare Hanlon\source\repos\JuneNPC\JuneNPC\bin\Debug\net5.0\JuneNPC.deps.json
+C:\Users\Clare Hanlon\source\repos\JuneNPC\JuneNPC\bin\Debug\net5.0\JuneNPC.dll
+C:\Users\Clare Hanlon\source\repos\JuneNPC\JuneNPC\bin\Debug\net5.0\JuneNPC.pdb
+C:\Users\Clare Hanlon\source\repos\JuneNPC\JuneNPC\obj\Debug\net5.0\JuneNPC.csproj.AssemblyReference.cache
+C:\Users\Clare Hanlon\source\repos\JuneNPC\JuneNPC\obj\Debug\net5.0\JuneNPC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Clare Hanlon\source\repos\JuneNPC\JuneNPC\obj\Debug\net5.0\JuneNPC.AssemblyInfoInputs.cache
+C:\Users\Clare Hanlon\source\repos\JuneNPC\JuneNPC\obj\Debug\net5.0\JuneNPC.AssemblyInfo.cs
+C:\Users\Clare Hanlon\source\repos\JuneNPC\JuneNPC\obj\Debug\net5.0\JuneNPC.csproj.CoreCompileInputs.cache
+C:\Users\Clare Hanlon\source\repos\JuneNPC\JuneNPC\obj\Debug\net5.0\JuneNPC.dll
+C:\Users\Clare Hanlon\source\repos\JuneNPC\JuneNPC\obj\Debug\net5.0\JuneNPC.pdb

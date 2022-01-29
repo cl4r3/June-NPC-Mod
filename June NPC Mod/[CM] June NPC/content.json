@@ -1,0 +1,10 @@
+﻿{
+	"Music": [
+		{
+			"Id": "doremi",
+			"File": "Audio/DoReMi.wav",
+			"Loop": false,
+			"Preload": true
+		},
+	]
+}

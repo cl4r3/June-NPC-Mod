@@ -1,0 +1,91 @@
+{
+"Changes": [
+
+	// Festivals
+	{
+		"LogName": "June SDV Fair Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall16",
+		"Entries": {
+			"June": "{{i18n:i18n.fair}}",
+			"June_spouse": "{{i18n:i18n.fair.spouse}}"
+		}
+	},
+	{
+		"LogName": "June Gathering Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall20",
+		"Entries": {
+			"June": "{{i18n:i18n.gathering}}",
+			"June_spouse": "{{i18n:i18n.gathering.spouse}}"
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"Entries": {
+			"June": "{{i18n:i18n.spiritseve}}",
+			"June_spouse": "{{i18n:i18n.spiritseve.spouse}}"
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter8",
+		"Entries": {
+			"June": "{{i18n:i18n.fishing}}",
+			"June_spouse": "{{i18n:i18n.fishing.spouse}}"
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter25",
+		"Entries": {
+			"June": "{{i18n:i18n.winterstar}}",
+			"June_spouse": "{{i18n:i18n.winterstar.spouse}}"
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter28",
+		"Entries": {
+			"June": "{{i18n:i18n.ember}}",
+			"June_spouse": "{{i18n:i18n.ember.spouse}}"
+		}
+	},
+
+	// Festivals June can only attend when married
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring13",
+		"Entries": {
+			"June": "{{i18n:i18n.error}}",
+			"June_spouse": "{{i18n:i18n.egghunt.spouse}}"
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring24",
+		"Entries": {
+			"June": "{{i18n:i18n.error}}",
+			"June_spouse": "{{i18n:i18n.dance.spouse}}"
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer11",
+		"Entries": {
+			"June": "{{i18n:i18n.error}}",
+			"June_spouse": "{{i18n:i18n.luau.spouse}}"
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer28",
+		"Entries": {
+			"June": "{{i18n:i18n.error}}",
+			"June_spouse": "{{i18n:i18n.jellies.spouse}}"
+		}
+	},
+
+]
+}

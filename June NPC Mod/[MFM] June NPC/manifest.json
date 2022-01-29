@@ -1,0 +1,17 @@
+{
+  "Name": "June NPC - Mail Framework Assets",
+  "Author": "ch20youk",
+  "Version": "1.1.1",
+  "Description": "Adds mail related assets for NPC June.",
+  "UniqueID": "ch20youk.JuneNPCMFM",
+  "UpdateKeys": [ "Nexus:10100" ],
+  "MinimumApiVersion": "3.4.0",
+  "Dependencies": [
+    {
+	  "UniqueID": "ch20youk.JuneNPC"
+	}
+  ],
+  "ContentPackFor": {
+    "UniqueID": "DIGUS.MailFrameworkMod"
+  }
+}

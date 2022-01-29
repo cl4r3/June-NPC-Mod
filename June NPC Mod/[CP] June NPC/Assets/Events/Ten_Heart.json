@@ -1,0 +1,18 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_Ridgeside_LogCabinHotelLobby",
+      "Entries": {
+        "94620010/e 94620008/f June 2500/D June/w sunny/d Mon Tue Wed/z spring/z summer/z fall/t 1200 2100": "ragtime/11 13/farmer 8 16 0 June 14 14 0 Ysabelle 11 6 2 Anton 19 14 2 Paula 19 15 0 Ian 2 8 2 Lorenzo 17 9 0 Shanice 18 9 0 Corine 10 8 0 Sean 3 15 2/skippable/animate Ian false true 500 17 18 19 18 17 17 17/showFrame June 30/positionOffset June -5 0/pause 500/move farmer 0 -2 0/move farmer 3 0 1/pause 400/showFrame June 31/emote June 32/speak June \"{{i18n:i18n.ten_heart.1}}\"/pause 300/emote farmer 16/pause 200/speak June \"{{i18n:i18n.ten_heart.2}}\"/pause 500/move farmer 0 1 2/move farmer 2 0 0/pause 100/jump farmer 6/showFrame 113/positionOffset farmer 7 -50/showFrame June 30/speak June \"{{i18n:i18n.ten_heart.3}}\"/speak June \"{{i18n:i18n.ten_heart.4}}\"/playSound dwop/jump June 3/positionOffset June -6 0/pause 700/playSound dwop/jump June 3/positionOffset June -6 0/pause 1000/playSound doremi/pause 3000/emote June 40/emote farmer 8/speak June \"{{i18n:i18n.ten_heart.5}}\"/pause 400/message \"{{i18n:i18n.ten_heart.6}}\"/showFrame June 31/speak June \"{{i18n:i18n.ten_heart.7}}\"/stopMusic/pause 500/globalFade/viewport -1000 -1000/stopAnimation Ian 0/extendSourceRect June reset/changeToTemporaryMap Custom_Ridgeside_RidgesideVillage false/warp June 110 14/warp farmer 111 14/faceDirection June 1/faceDirection farmer 3/positionOffset June 0 -12/pause 1000/playMusic musicboxsong/fade/viewport 110 13/pause 1000/speak June \"{{i18n:i18n.ten_heart.8}}\"/pause 500/speak June \"{{i18n:i18n.ten_heart.9}}\"/pause 400/faceDirection June 3/pause 400/speak June \"{{i18n:i18n.ten_heart.10}}\"/pause 300/faceDirection June 1/pause 400/speak June \"{{i18n:i18n.ten_heart.11}}\"/pause 500/speak June \"{{i18n:i18n.ten_heart.12}}\"/speak June \"$q 9462100 null#  #$r 9462101 100 positive10#{{i18n:i18n.ten_heart.13}}#$r 9462102 -1000 negative10#{{i18n:i18n.ten_heart.14}}\"/fork 9462102 juneRejection/pause 500/showFrame June 28/positionOffset June 5 0/positionOffset farmer -5 0/animate farmer true true 100 101/emote June 20/pause 2000/globalFade/viewport -1000 -1000/speak June \"{{i18n:i18n.ten_heart.17}}\"/pause 1000/end dialogue June \"{{i18n:i18n.ten_heart.after.1}}\""
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Temp",
+      "Entries": {
+        "juneRejection": "stopMusic/pause 1000/faceDirection June 2/positionOffset June 0 10/move June 7 0 1 true/globalFade/viewport -1000 -1000/end dialogue June \"{{i18n:i18n.ten_heart.after.2}}\""
+      }
+    }
+  ]
+}

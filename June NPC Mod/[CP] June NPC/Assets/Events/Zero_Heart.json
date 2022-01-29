@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_Ridgeside_LogCabinHotelLobby",
+      "Entries": {
+        "94620002/e 94620000/t 1200 2100/z spring/z summer/d Mon Tue Wed": "SettlingIn/11 13/farmer 8 16 0 June 13 14 0 Ysabelle 11 6 2 Ian 2 8 2/skippable/animate Ian false true 500 17 18 19 18 17 17 17/positionOffset June 32 16/showFrame June 30/fade/pause 500/move farmer 0 -2 0/move farmer 2 0 1/pause 300/showFrame June 31/pause 300/emote June 16/showFrame June 34/pause 100/positionOffset June -32 -16/move June 0 1 3/move June -1 0 0/move June 0 -1 3/speak June \"{{i18n:i18n.zero_heart.1}}\"/pause 300/emote farmer 8/pause 300/speak June \"{{i18n:i18n.zero_heart.2}}\"/pause 400/speak June \"{{i18n:i18n.zero_heart.3}}\"/speak June \"$q 1 null \"#{{i18n:i18n.zero_heart.4}}#$r -1 50 positive1#{{i18n:i18n.zero_heart.5}}#$r -1 0 neutral1#{{i18n:i18n.zero_heart.6}}#$r -1 -25 negative1#{{i18n:i18n.zero_heart.7}}\"/pause 400/speak June \"{{i18n:i18n.zero_heart.11}}\"/move June 1 0 0/positionOffset June 16 0/showFrame June 30/positionOffset June 16 16/pause 300/globalFade/viewport -1000 -1000/end dialogue June \"{{i18n:i18n.zero_heart.after}}\""
+      }
+    }
+  ]
+}

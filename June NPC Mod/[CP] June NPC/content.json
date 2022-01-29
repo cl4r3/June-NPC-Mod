@@ -1,0 +1,258 @@
+{
+  "Format": "1.24.0",
+
+  // Map for fourteen heart event
+  "CustomLocations": [
+    {
+      "Name": "Custom_JuneNPC_ResortDate",
+      "FromMapFile": "Assets/Maps/Island_S-June.tmx",
+    }
+  ],
+
+  "Changes": [
+
+        //---Basic NPC stuff---//
+    {
+      "LogName": "June Disposition",
+      "Action": "Include",
+      "FromFile": "Data/NPCData/Disposition.json"
+    },
+    {
+      "LogName": "June Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "When": { "HasMod": "spacechase0.JsonAssets" },
+      "Entries": {
+          "June": "{{i18n:i18n.gift.love}}/119 226 253 433 613 {{spacechase0.JsonAssets/ObjectId:Wild Apple Juice}}/{{i18n:i18n.gift.like}}/281 282 296 392 398 404 406 408 410 412 414 416 {{spacechase0.JsonAssets/ObjectId:Autumn Drop Berry}} {{spacechase0.JsonAssets/ObjectId:Frost Clump Berry}} {{spacechase0.JsonAssets/ObjectId:Highland Chard}} {{spacechase0.JsonAssets/ObjectId:Ridge Wild Apple}} {{spacechase0.JsonAssets/ObjectId:Ridgeside Clementine}} {{spacechase0.JsonAssets/ObjectId:Ember Blood Lime}} {{spacechase0.JsonAssets/ObjectId:Highland Jostaberry}} {{spacechase0.JsonAssets/ObjectId:Northern Limequat}}/{{i18n:i18n.gift.dislike}}/346/{{i18n:i18n.gift.hate}}/446/{{i18n:i18n.gift.neutral}}/16 18 20 22 24 91 188 190 192 248 250 252 254 256 257 258 259 260 264 266 268 399 400 402 591 593 597 634 635 636 638 834 {{spacechase0.JsonAssets/ObjectId:Cherry Pluot}} {{spacechase0.JsonAssets/ObjectId:Mountain Plumcot}} {{spacechase0.JsonAssets/ObjectId:Desert Tangelo}} {{spacechase0.JsonAssets/ObjectId:Paradise Rangpur}} {{spacechase0.JsonAssets/ObjectId:Tropi Ugli Fruit}} {{spacechase0.JsonAssets/ObjectId:Forest Amancay}} {{spacechase0.JsonAssets/ObjectId:Mountain Arugula}} {{spacechase0.JsonAssets/ObjectId:Mountain Hokkaido}} {{spacechase0.JsonAssets/ObjectId:Ridge Azorean Flower}} {{spacechase0.JsonAssets/ObjectId:Ridgeside Monkshood}} {{spacechase0.JsonAssets/ObjectId:Violet Devil's Claw}} -4/ "
+      }
+    },
+    {
+      "LogName": "June Sprites",
+      "Action": "Load",
+      "Target": "Characters/June, Characters/June_Beach",
+      "FromFile": "Assets/Images/{{TargetWithoutPath}}_sprite.png"
+    },
+    {
+      "LogName": "June Portraits",
+      "Action": "Load",
+      "Target": "Portraits/June, Portraits/June_Beach",
+      "FromFile": "Assets/Images/{{TargetWithoutPath}}_portrait.png"
+    },
+
+        //---Seasonal NPC Stuff---//
+    {
+      "LogName": "AntiSocial Flag - June unmet",
+      "Action": "EditData",
+      "Target": "Data/AntiSocialNPCs",
+      "When": {
+        "HasSeenEvent |contains=94620000": false
+      },
+      "Entries": {
+        "June": true
+      }
+    },
+    {
+      "LogName": "AntiSocial Flag - June met",
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"When": {
+				"HasSeenEvent": 94620000
+			},
+			"Entries": {
+				"June": null
+			},
+			"Update": "OnLocationChange"
+		},
+    {
+        "LogName": "Custom NPC Exclusions - June single out of town",
+        "Action": "EditData",
+        "Target": "Data/CustomNPCExclusions",
+        "When": {
+          "Season": "spring, summer",
+          "Relationship:June |contains=Married": false
+        },
+        "Entries": {
+            "June": "ItemDelivery PerfectFriend IslandVisit Introductions"
+            }
+    },
+    {
+        "LogName": "Custom NPC Exclusions - June single in town",
+        "Action": "EditData",
+        "Target": "Data/CustomNPCExclusions",
+        "When": {
+          "Season": "fall, winter",
+          "Relationship:June |contains=Married": false,
+          "HasMod": "spacechase0.CustomNPCFixes"
+        },
+        "Entries": {
+            "June": "PerfectFriend IslandVisit"
+            }
+    },
+    {
+        "LogName": "Custom NPC Exclusions - June married, no island date",
+        "Action": "EditData",
+        "Target": "Data/CustomNPCExclusions",
+        "When": {
+          "Relationship:June |contains=Married": true,
+          "HasSeenEvent |contains=94620142": false
+        },
+        "Entries": {
+            "June": "PerfectFriend IslandVisit"
+            }
+    },
+    {
+        "LogName": "Custom NPC Exclusions - June married, had island date",
+        "Action": "EditData",
+        "Target": "Data/CustomNPCExclusions",
+        "When": {
+          "Relationship:June |contains=Married": true,
+          "HasSeenEvent": 94620142
+        },
+        "Entries": {
+            "June": "PerfectFriend"
+            }
+    },
+
+        //---Dialogue---//
+    {
+      "LogName": "Create June Dialogue",
+     	"Action": "Load",
+     	"Target": "Characters/Dialogue/June",
+     	"FromFile": "Data/EmptyJson.json"
+    },
+    {
+      "LogName": "Create June Marriage Dialogue",
+     	"Action": "Load",
+     	"Target": "Characters/Dialogue/MarriageDialogueJune",
+     	"FromFile": "Data/EmptyJson.json"
+    },
+    {
+      "LogName": "Create June Schedule Dialogue",
+     	"Action": "Load",
+     	"Target": "Strings/schedules/June",
+     	"FromFile": "Data/EmptyJson.json"
+    },
+    {
+      "LogName": "Include June Dialogue",
+      "Action": "Include",
+      "FromFile": "Assets/Dialogue/RegularDialogue.json"
+    },
+    {
+      "LogName": "Include June Marriage Dialogue",
+      "Action": "Include",
+      "FromFile": "Assets/Dialogue/MarriageDialogue.json"
+    },
+    {
+      "LogName": "Include June Schedule Dialogue",
+      "Action": "Include",
+      "FromFile": "Assets/Dialogue/ScheduleDialogue.json"
+    },
+    {
+      "LogName": "June Festival Dialogue",
+      "Action": "Include",
+      "FromFile": "Assets/Dialogue/FestivalDialogue.json"
+    },
+    {
+      "LogName": "June Extra Dialogue",
+			"Action": "Include",
+      "FromFile": "assets/dialogue/ExtraDialogue.json"
+    },
+    {
+  		"LogName": "June Conversation Topic",
+     	"Action": "Include",
+     	"FromFile": "assets/dialogue/ConversationTopics.json"
+    },
+    {
+      "LogName": "June Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "June0": "{{i18n:i18n.engaged0}}",
+        "June1": "{{i18n:i18n.engaged1}}"
+      }
+    },
+
+        //---Misc NPC Content---//
+    {
+      "LogName": "June Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/June",
+      "FromFile": "Data/NPCData/Schedule.json",
+    },
+    {
+      "LogName": "June Schedule Changes",
+			"Action": "Include",
+      "FromFile": "Data/NPCData/ScheduleChanges.json"
+    },
+    {
+      "LogName": "June Events",
+      "Action": "Include",
+      "FromFile": "Assets/Events/Introduction.json, Assets/Events/Zero_Heart.json, Assets/Events/Four_Heart.json, Assets/Events/Six_Heart.json, Assets/Events/Seven_Heart.json, Assets/Events/Eight_Heart.json, Assets/Events/Ten_Heart.json, Assets/Events/Fourteen_Heart.json"
+    },
+    {
+      "LogName": "June Animations",
+      "Action": "Include",
+      "FromFile": "Data/NPCData/Animations.json"
+    },
+    {
+      "LogName": "June Festival Locations",
+      "Action": "Include",
+      "FromFile": "Data/NPCData/FestivalData.json"
+    },
+    {
+  		"LogName": "June Movie Tastes",
+     		"Action": "Include",
+     		"FromFile": "Data/NPCData/MovieData.json"
+    },
+
+        //---Spouse Room---//
+    {
+      "Action": "EditData",
+      "Target": "Data/SpouseRooms",
+      "Entries": {
+          "June": "JuneSpouseRoom/0"
+      }
+    },
+    {
+        "LogName": "Load June Spouse Room",
+        "Action": "Load",
+        "Target": "Maps/JuneSpouseRoom",
+        "FromFile": "Assets/Maps/JuneSpouseRoom.tmx"
+    },
+    {
+			"LogName": "June Spouse Room Text",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"JuneHouse.1": "{{i18n:i18n.june_house.1}}",
+				"JuneHouse.2": "{{i18n:i18n.june_house.2}}",
+				"JuneHouse.3": "{{i18n:i18n.june_house.3}}",
+				"JuneHouse.4": "{{i18n:i18n.june_house.4}}"
+			}
+		},
+
+        //---June's Room in Hotel---//
+    {
+  		"LogName": "June - Room in Hotel",
+  		"Action": "Include",
+  		"FromFile": "Data/MapData/RoomData.json",
+      "When": {
+        "Season": "fall, winter",
+        "Relationship:June |contains=Married": false,
+        "HasMod": "Rafseazz.RSVCP"
+      }
+    },
+
+          //---Piano String Modification---//
+    {
+  		"LogName": "June Music Data",
+      "Action": "Include",
+  		"FromFile": "Data/MapData/MapStrings.json",
+      "When": {
+        "HasSeenEvent": 94620000,
+        "HasMod": "Rafseazz.RSVCP"
+      }
+    }
+
+  ]
+}

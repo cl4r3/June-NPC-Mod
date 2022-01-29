@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+        "94620008/f June 2000/z spring/z summer/z fall/e 94620007/d Mon Wed Thu Fri Sat Sun/t 1200 1800": "ocean/53 24/farmer 40 24 1 June 53 24 2/skippable/move farmer 12 0 1/pause 1000/faceDirection June 3/emote June 16/speak June \"{{i18n:i18n.eight_heart.1}}\"/emote farmer 8/pause 500/emote June 40/speak June \"{{i18n:i18n.eight_heart.2}}\"/pause 300/faceDirection June 2/pause 500/faceDirection farmer 2/speak June \"{{i18n:i18n.eight_heart.3}}\"/speak June \"{{i18n:i18n.eight_heart.4}}\"/speak June \"{{i18n:i18n.eight_heart.5}}\"/speak June \"{{i18n:i18n.eight_heart.6}}\"/pause 700/speak June \"{{i18n:i18n.eight_heart.7}}\"/pause 400/faceDirection June 3/pause 400/speak June \"{{i18n:i18n.eight_heart.8}}\"/speak June \"{{i18n:i18n.eight_heart.9}}\"/pause 500/faceDirection farmer 1/emote farmer 8/speak June \"{{i18n:i18n.eight_heart.10}}\"/speak June \"{{i18n:i18n.eight_heart.11}}\"/speak June \"$q 946280 null#  #$r 946281 100 positive8#{{i18n:i18n.eight_heart.12}}#$r 946282 -1250 negative8#{{i18n:i18n.eight_heart.13}}\"/fork 946282 dickResponse/pause 500/speak June \"{{i18n:i18n.eight_heart.16}}\"/pause 1000/speak June \"{{i18n:i18n.eight_heart.17}}\"/emote farmer 56/pause 300/faceDirection farmer 2/pause 500/faceDirection June 2/pause 500/emote June 32/pause 1000/globalFade/viewport -1000 -1000/end dialogue June \"{{i18n:i18n.eight_heart.after.1}}\"",
+        "dickResponse": "pause 400/move June 0 -13 0 true/pause 500/faceDirection farmer 0/pause 1000/globalFade/viewport -1000 -1000/end dialogue June \"{{i18n:i18n.eight_heart.after.2}}\""
+      }
+    }
+  ]
+}

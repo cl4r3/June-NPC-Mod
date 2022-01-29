@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "94620007/f June 1750/d Mon Tue Wed Thu Fri Sat/t 2000 2400/e 94620006/z spring/z summer": "nightTime/42 72/farmer 24 72 1 June 42 72 2/skippable/animate June false true 400 40 40 41 41 42 42 43 43 42 42 41 41/move farmer 14 0 1/pause 300/emote farmer 8/pause 300/move farmer 3 0 1/speak June \"{{i18n:i18n.seven_heart.1}}\"/pause 700/stopAnimation June 39/jump June/emote June 16/speak June \"{{i18n:i18n.seven_heart.2}}\"/extendSourceRect June reset/faceDirection June 3/pause 300/speak June \"{{i18n:i18n.seven_heart.3}}\"/speak June \"$q 0 null#  #$r 0 0 event7_1#{{i18n:i18n.seven_heart.4}}#$r 0 0 event7_2#{{i18n:i18n.seven_heart.5}}\"/pause 500/emote farmer 40/pause 500/emote June 40/speak June \"{{i18n:i18n.seven_heart.8}}\"/pause 700/emote June 40/speak June \"{{i18n:i18n.seven_heart.9}}\"/speak June \"$q 0 null#  #$r 0 0 neutral7_0#{{i18n:i18n.seven_heart.10}}#$r 0 0 neutral7_0#{{i18n:i18n.seven_heart.11}}\"/pause 300/faceDirection June 2/pause 300/emote June 28/pause 500/speak June \"{{i18n:i18n.seven_heart.13}}\"/speak June \"$q 0 null#  #$r 0 0 neutral7#{{i18n:i18n.seven_heart.14}}#$r 0 0 neutral7#{{i18n:i18n.seven_heart.15}}#$r 0 -500 negative7#{{i18n:i18n.seven_heart.16}}\"/speak June \"{{i18n:i18n.seven_heart.19}}\"/move June 0 1 3/move June -17 0 1 true/pause 1500/faceDirection farmer 3/pause 300/emote farmer 8/pause 300/globalFade/viewport -1000 -1000/end dialogue June \"{{i18n:i18n.seven_heart.after}}\""
+      }
+    }
+  ]
+}

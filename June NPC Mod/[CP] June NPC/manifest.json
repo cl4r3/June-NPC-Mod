@@ -1,0 +1,34 @@
+{
+  "Name": "June - Custom NPC (no music version)",
+  "Author": "ch20youk",
+  "Description": "June, a custom marriage candidate for Ridgeside Village.",
+  "Version": "1.1.1",
+  "UniqueID": "ch20youk.JuneNPC",
+  "UpdateKeys": [ "Nexus:10100" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Rafseazz.RSVCP",
+      "IsRequired": true,
+      "MinimumVersion": "2.0.0"
+    },
+    {
+      "UniqueID": "spacechase0.JsonAssets",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "spacechase0.CustomNPCFixes",
+      "IsRequired": true
+    },
+    {
+       "UniqueID": "Platonymous.TMXLoader",
+       "IsRequired": true,
+    },
+    {
+       "UniqueID": "DIGUS.MailFrameworkMod",
+       "IsRequired": true,
+    }
+  ]
+}

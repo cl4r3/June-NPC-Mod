@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_Ridgeside_RSVCliff",
+      "Entries": {
+        "94620006/f June 1500/z spring/z summer/d Mon Tue Thu Fri Sat Sun/e 94620004/t 1400 2000/w sunny": "breezy/55 21/June 59 21 0 farmer 50 24 1/skippable/move farmer 6 0 1/pause 500/faceDirection June 2/speak June \"{{i18n:i18n.six_heart.1}}\"/move farmer 4 0 1 true/viewport move 2 0 2000/move farmer 0 -3 0/pause 300/faceDirection June 1/pause 400/faceDirection June 0/pause 500/emote June 32/speak June \"$q 0 null \"#{{i18n:i18n.six_heart.2}}#$r 0 50 positive6#{{i18n:i18n.six_heart.3}}#$r 0 0 neutral6#{{i18n:i18n.six_heart.4}}\"/pause 700/speak June \"{{i18n:i18n.six_heart.7}}\"/speak June \"$q 0 null#  #$r 0 -10 negative6_2#{{i18n:i18n.six_heart.8}}#$r 0 0 neutral6_2#{{i18n:i18n.six_heart.9}}#$r 0 50 positive6_2#{{i18n:i18n.six_heart.10}}\"/pause 500/faceDirection June 1/pause 500/speak June \"{{i18n:i18n.six_heart.14}}\"/faceDirection farmer 3/pause 400/emote farmer 60/speak June \"{{i18n:i18n.six_heart.15}}\"/speak June \"$q 0 null#  #$r 0 50 positive6_3#{{i18n:i18n.six_heart.16}}#$r 0 0 neutral6_3#{{i18n:i18n.six_heart.17}}\"/speak June \"{{i18n:i18n.six_heart.20}}\"/pause 500/speak June \"{{i18n:i18n.six_heart.21}}\"/move June 0 3 2/faceDirection farmer 2/move June -10 0 3 true/globalFade/viewport -1000 -1000/end dialogue June \"{{i18n:i18n.six_heart.after}}\""
+      }
+    }
+  ]
+}
