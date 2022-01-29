@@ -1,0 +1,127 @@
+{
+"Changes": [
+		// KK Slider song only
+		{
+			"LogName": "June KK piano - Th Fr Sa evening",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby",
+			"MapProperties": {
+				"Music": "cm:KKsonata"
+				},
+			"When": {
+				"Season": "fall, winter",
+				"DayOfWeek": "Thursday, Friday, Saturday",
+				"Time": "{{Range: 1710, 2050}}",
+				"Relationship:June |contains=Married": false,
+				},
+			"Update": "OnTimeChange"
+		},
+		{
+			"LogName": "June KK piano - Sa Su afternoon",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby",
+			"MapProperties": {
+				"Music": "cm:KKsonata"
+				},
+			"When": {
+				"Season": "fall, winter",
+				"DayOfWeek": "Saturday, Sunday",
+				"Time": "{{Range: 1210, 1450}}",
+				"Relationship:June |contains=Married": false,
+				},
+			"Update": "OnTimeChange"
+		},
+		{
+			"LogName": "June KK piano - married Th Fr Sa",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby",
+			"MapProperties": {
+				"Music": "cm:KKsonata"
+				},
+			"When": {
+				"DayOfWeek": "Thursday, Friday, Saturday",
+				"Weather": "Sun, Wind, Snow",
+				"Time": "{{Range: 1210, 1750}}",
+				"Relationship:June |contains=Married": true,
+				},
+			"Update": "OnTimeChange"
+		},
+		{
+			"LogName": "June KK piano - married Su",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby",
+			"MapProperties": {
+				"Music": "cm:KKsonata"
+				},
+			"When": {
+				"DayOfWeek": "Sunday",
+				"Weather": "Sun, Wind, Snow",
+				"Time": "{{Range: 1210, 1450}}",
+				"Relationship:June |contains=Married": true,
+				},
+			"Update": "OnTimeChange"
+		},
+
+		// Stop music after June is done playing
+		{
+			"LogName": "June done playing - Th Fr Sa evening",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby, Maps/Custom_Ridgeside_LogCabinHotel2ndFloor, Maps/Custom_Ridgeside_RidgesideVillage",
+			"MapProperties": {
+				"Music": "none"
+				},
+			"When": {
+				"Season": "fall, winter",
+				"DayOfWeek": "Thursday, Friday, Saturday",
+				"Time": "{{Range: 2100, 2300}}",
+				"Relationship:June |contains=Married": false,
+				},
+			"Update": "OnTimeChange"
+		},
+		{
+			"LogName": "June done playing - Sa Su afternoon",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby, Maps/Custom_Ridgeside_LogCabinHotel2ndFloor, Maps/Custom_Ridgeside_RidgesideVillage",
+			"MapProperties": {
+				"Music": "none"
+				},
+			"When": {
+				"Season": "fall, winter",
+				"DayOfWeek": "Saturday, Sunday",
+				"Time": "{{Range: 1500, 1700}}",
+				"Relationship:June |contains=Married": false,
+				},
+			"Update": "OnTimeChange"
+		},
+		{
+			"LogName": "June done playing - married Th Fr Sa",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby, Maps/Custom_Ridgeside_LogCabinHotel2ndFloor, Maps/Custom_Ridgeside_RidgesideVillage",
+			"MapProperties": {
+				"Music": "none"
+				},
+			"When": {
+				"DayOfWeek": "Thursday, Friday, Saturday",
+				"Weather": "Sun, Wind, Snow",
+				"Time": "{{Range: 1800, 2000}}",
+				"Relationship:June |contains=Married": true,
+				},
+			"Update": "OnTimeChange"
+		},
+		{
+			"LogName": "June done playing - married Su",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby, Maps/Custom_Ridgeside_LogCabinHotel2ndFloor, Maps/Custom_Ridgeside_RidgesideVillage",
+			"MapProperties": {
+				"Music": "none"
+				},
+			"When": {
+				"DayOfWeek": "Sunday",
+				"Weather": "Sun, Wind, Snow",
+				"Time": "{{Range: 1500, 1700}}",
+				"Relationship:June |contains=Married": true,
+				},
+			"Update": "OnTimeChange"
+		},
+]
+}
