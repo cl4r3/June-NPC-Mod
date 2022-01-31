@@ -9,6 +9,14 @@
     }
   ],
 
+  "DynamicTokens": [
+    // Odd year token for SVE compat
+    {
+      "Name": "IsOddYear",
+      "Value": "{{Query: {{Year}} % 2 = 1}}"
+    },
+  ],
+
   "Changes": [
 
         //---Basic NPC stuff---//
