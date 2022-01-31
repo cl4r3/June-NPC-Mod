@@ -1,18 +1,86 @@
 {
 "Changes": [
-		// KK Slider song only
+
+		// Classical music
+		{
+			"LogName": "June classical piano - Th Fr Sa evening",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby",
+			"MapProperties": {
+				"Music": "{{RANDOMMUSIC}}"
+				},
+			"When": {
+				"JuneMusic": "classical",
+				"Season": "fall, winter",
+				"DayOfWeek": "Thursday, Friday, Saturday",
+				"Time": "{{Range: 1710, 2050}}",
+				"Spouse |contains=June": false
+				},
+			"Update": "OnTimeChange"
+		},
+		{
+			"LogName": "June classical piano - Sa Su afternoon",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby",
+			"MapProperties": {
+				"Music": "{{RANDOMMUSIC}}"
+				},
+			"When": {
+				"JuneMusic": "classical",
+				"Season": "fall, winter",
+				"DayOfWeek": "Saturday, Sunday",
+				"Time": "{{Range: 1210, 1450}}",
+				"Spouse |contains=June": false
+				},
+			"Update": "OnTimeChange"
+		},
+		{
+			"LogName": "June classical piano - married Th Fr Sa",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby",
+			"MapProperties": {
+				"Music": "{{RANDOMMUSIC}}"
+				},
+			"When": {
+				"JuneMusic": "classical",
+				"DayOfWeek": "Thursday, Friday, Saturday",
+				"Weather": "Sun, Wind, Snow",
+				"Time": "{{Range: 1210, 1750}}",
+				"Spouse": "June"
+				},
+			"Update": "OnTimeChange"
+		},
+		{
+			"LogName": "June classical piano - married Su",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby",
+			"MapProperties": {
+				"Music": "{{RANDOMMUSIC}}"
+				},
+			"When": {
+				"JuneMusic": "classical",
+				"DayOfWeek": "Sunday",
+				"Weather": "Sun, Wind, Snow",
+				"Time": "{{RANDOMMUSIC}}",
+				"Spouse": "June"
+				},
+			"Update": "OnTimeChange"
+		},
+
+		// KK Slider song(s)
 		{
 			"LogName": "June KK piano - Th Fr Sa evening",
 			"Action": "EditMap",
 			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby",
 			"MapProperties": {
-				"Music": "cm:KKsonata"
+				"Music": "KKsonata"
 				},
 			"When": {
+				"JuneMusic": "kkslider",
 				"Season": "fall, winter",
 				"DayOfWeek": "Thursday, Friday, Saturday",
 				"Time": "{{Range: 1710, 2050}}",
-				"Relationship:June |contains=Married": false,
+				"Spouse |contains=June": false
 				},
 			"Update": "OnTimeChange"
 		},
@@ -21,13 +89,14 @@
 			"Action": "EditMap",
 			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby",
 			"MapProperties": {
-				"Music": "cm:KKsonata"
+				"Music": "KKsonata"
 				},
 			"When": {
+				"JuneMusic": "kkslider",
 				"Season": "fall, winter",
 				"DayOfWeek": "Saturday, Sunday",
 				"Time": "{{Range: 1210, 1450}}",
-				"Relationship:June |contains=Married": false,
+				"Spouse |contains=June": false
 				},
 			"Update": "OnTimeChange"
 		},
@@ -36,13 +105,14 @@
 			"Action": "EditMap",
 			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby",
 			"MapProperties": {
-				"Music": "cm:KKsonata"
+				"Music": "KKsonata"
 				},
 			"When": {
+				"JuneMusic": "kkslider",
 				"DayOfWeek": "Thursday, Friday, Saturday",
 				"Weather": "Sun, Wind, Snow",
 				"Time": "{{Range: 1210, 1750}}",
-				"Relationship:June |contains=Married": true,
+				"Spouse": "June"
 				},
 			"Update": "OnTimeChange"
 		},
@@ -51,13 +121,14 @@
 			"Action": "EditMap",
 			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby",
 			"MapProperties": {
-				"Music": "cm:KKsonata"
+				"Music": "KKsonata"
 				},
 			"When": {
+				"JuneMusic": "kkslider",
 				"DayOfWeek": "Sunday",
 				"Weather": "Sun, Wind, Snow",
 				"Time": "{{Range: 1210, 1450}}",
-				"Relationship:June |contains=Married": true,
+				"Spouse": "June"
 				},
 			"Update": "OnTimeChange"
 		},
@@ -74,7 +145,7 @@
 				"Season": "fall, winter",
 				"DayOfWeek": "Thursday, Friday, Saturday",
 				"Time": "{{Range: 2100, 2300}}",
-				"Relationship:June |contains=Married": false,
+				"Spouse |contains=June": false
 				},
 			"Update": "OnTimeChange"
 		},
@@ -89,7 +160,7 @@
 				"Season": "fall, winter",
 				"DayOfWeek": "Saturday, Sunday",
 				"Time": "{{Range: 1500, 1700}}",
-				"Relationship:June |contains=Married": false,
+				"Spouse |contains=June": false
 				},
 			"Update": "OnTimeChange"
 		},
@@ -104,7 +175,7 @@
 				"DayOfWeek": "Thursday, Friday, Saturday",
 				"Weather": "Sun, Wind, Snow",
 				"Time": "{{Range: 1800, 2000}}",
-				"Relationship:June |contains=Married": true,
+				"Spouse": "June"
 				},
 			"Update": "OnTimeChange"
 		},
@@ -119,7 +190,7 @@
 				"DayOfWeek": "Sunday",
 				"Weather": "Sun, Wind, Snow",
 				"Time": "{{Range: 1500, 1700}}",
-				"Relationship:June |contains=Married": true,
+				"Spouse": "June"
 				},
 			"Update": "OnTimeChange"
 		},
