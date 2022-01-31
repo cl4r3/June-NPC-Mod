@@ -6,7 +6,7 @@
 			"Action": "EditMap",
 			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby",
 			"MapProperties": {
-				"Music": "cm:KKsonata"
+				"Music": "KKsonata"
 				},
 			"When": {
 				"Season": "fall, winter",
@@ -21,7 +21,7 @@
 			"Action": "EditMap",
 			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby",
 			"MapProperties": {
-				"Music": "cm:KKsonata"
+				"Music": "KKsonata"
 				},
 			"When": {
 				"Season": "fall, winter",
@@ -36,7 +36,7 @@
 			"Action": "EditMap",
 			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby",
 			"MapProperties": {
-				"Music": "cm:KKsonata"
+				"Music": "KKsonata"
 				},
 			"When": {
 				"DayOfWeek": "Thursday, Friday, Saturday",
@@ -51,7 +51,7 @@
 			"Action": "EditMap",
 			"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby",
 			"MapProperties": {
-				"Music": "cm:KKsonata"
+				"Music": "KKsonata"
 				},
 			"When": {
 				"DayOfWeek": "Sunday",

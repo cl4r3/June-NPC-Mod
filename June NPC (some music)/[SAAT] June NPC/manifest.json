@@ -1,12 +1,12 @@
 ﻿{
-  "Name": "June NPC - Custom Music (some music)",
+  "Name": "June NPC - SAAT (some music)",
   "Author": "ch20youk",
-  "Version": "1.1.1",
-  "Description": "Adds Custom Music for NPC June",
-  "UniqueID": "ch20youk.JuneNPCCM",
+  "Version": "1.1.2",
+  "Description": "Adds custom audio for NPC June",
+  "UniqueID": "ch20youk.JuneNPCSAAT",
   "UpdateKeys": [ "Nexus:10100" ],
   "ContentPackFor": {
-    "UniqueID": "Platonymous.CustomMusic",
+    "UniqueID": "ZeroMeters.SAAT.Mod",
     "MinimumVersion": "1.0.3"
   },
 	"Dependencies": [

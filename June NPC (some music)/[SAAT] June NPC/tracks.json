@@ -1,0 +1,20 @@
+﻿[
+    {
+      "Id": "doremi",
+			"Filepath": "Audio/DoReMi.wav",
+			"Category": "Sound",
+			"Settings": {
+				"Loop": false,
+				"AddToJukebox": false
+			}
+		},
+    {
+      "Id": "KKsonata",
+			"Filepath": "Audio/KKsonata.wav",
+			"Category": "Music",
+			"Settings": {
+				"Loop": true,
+				"AddToJukebox": false
+			}
+		},
+]
