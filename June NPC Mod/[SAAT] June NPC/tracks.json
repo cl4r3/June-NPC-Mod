@@ -10,7 +10,7 @@
 		},
     {
       "Id": "Chopin1",
-			"Filepath": "Audio/Chopin1.ogg",
+			"Filepath": "Audio/Chopin1.wav",
 			"Category": "Music",
 			"Settings": {
 				"Loop": true,
@@ -19,7 +19,7 @@
 		},
     {
       "Id": "Chopin2",
-			"Filepath": "Audio/Chopin2.ogg",
+			"Filepath": "Audio/Chopin2.wav",
 			"Category": "Music",
 			"Settings": {
 				"Loop": true,
@@ -28,7 +28,7 @@
 		},
     {
       "Id": "Beethoven1",
-			"Filepath": "Audio/Beethoven1.ogg",
+			"Filepath": "Audio/Beethoven1.wav",
 			"Category": "Music",
 			"Settings": {
 				"Loop": true,
@@ -37,7 +37,7 @@
 		},
     {
       "Id": "Beethoven2",
-			"Filepath": "Audio/Beethoven2.ogg",
+			"Filepath": "Audio/Beethoven2.wav",
 			"Category": "Music",
 			"Settings": {
 				"Loop": true,
@@ -46,7 +46,7 @@
 		},
     {
       "Id": "Bach1",
-			"Filepath": "Audio/Bach1.ogg",
+			"Filepath": "Audio/Bach1.wav",
 			"Category": "Music",
 			"Settings": {
 				"Loop": true,
@@ -55,7 +55,7 @@
 		},
     {
       "Id": "KKsonata",
-			"Filepath": "Audio/KKsonata.ogg",
+			"Filepath": "Audio/KKsonata.wav",
 			"Category": "Music",
 			"Settings": {
 				"Loop": true,
