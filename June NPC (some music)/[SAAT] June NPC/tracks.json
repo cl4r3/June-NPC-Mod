@@ -1,7 +1,7 @@
 ﻿[
     {
       "Id": "doremi",
-			"Filepath": "Audio/DoReMi.wav",
+			"Filepath": "Audio/DoReMi.ogg",
 			"Category": "Sound",
 			"Settings": {
 				"Loop": false,
