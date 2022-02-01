@@ -16,6 +16,18 @@
   "marriage_Sun": "a1200 Custom_Ridgeside_LogCabinHotelLobby 13 14 0 june_piano/1500 Saloon 5 20 3/2000 BusStop -1 23 3",
   "marriage_winter_16": "a1700 Beach 10 39 2 june_drink \"Strings\\schedules\\June:winter_16.spouse\"/1950 Beach 10 37 3 \"Strings\\schedules\\June:winter_16.spouse\"/2200 BusStop -1 23 3",
 
-  "spring": "600 Custom_Ridgeside_RSVHiddenWarp2 1 1 2/2000 Custom_Ridgeside_RSVHiddenWarp2 1 5 2",
-  "summer": "GOTO spring"
+  "spring_Mon": "600 Custom_Ridgeside_RSVHiddenWarp2 1 1 2/2000 Custom_Ridgeside_RSVHiddenWarp2 1 5 2",
+  "spring_Tue": "GOTO spring_Mon",
+  "spring_Wed": "GOTO spring_Mon",
+  "spring_Thu": "GOTO spring_Mon",
+  "spring_Fri": "GOTO spring_Mon",
+  "spring_Sat": "GOTO spring_Mon",
+  "spring_Sun": "GOTO spring_Mon",
+  "summer_Mon": "GOTO spring_Mon",
+  "summer_Tue": "GOTO spring_Mon",
+  "summer_Wed": "GOTO spring_Mon",
+  "summer_Thu": "GOTO spring_Mon",
+  "summer_Fri": "GOTO spring_Mon",
+  "summer_Sat": "GOTO spring_Mon",
+  "summer_Sun": "GOTO spring_Mon"
 }
