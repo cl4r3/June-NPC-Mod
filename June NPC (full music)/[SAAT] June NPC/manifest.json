@@ -1,7 +1,7 @@
 ﻿{
   "Name": "June NPC - SAAT (full music)",
   "Author": "ch20youk",
-  "Version": "1.1.2",
+  "Version": "1.1.3",
   "Description": "Adds custom audio for NPC June",
   "UniqueID": "ch20youk.JuneNPCSAAT",
   "UpdateKeys": [ "Nexus:10100" ],
