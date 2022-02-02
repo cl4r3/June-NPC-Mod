@@ -1,7 +1,7 @@
 ﻿[
     {
       "Id": "doremi",
-			"Filepath": "Audio/DoReMi.ogg",
+			"Filepath": "Audio/DoReMi.wav",
 			"Category": "Sound",
 			"Settings": {
 				"Loop": false,
@@ -10,7 +10,7 @@
 		},
     {
       "Id": "KKsonata",
-			"Filepath": "Audio/KKsonata.wav",
+			"Filepath": "Audio/KKsonata.ogg",
 			"Category": "Music",
 			"Settings": {
 				"Loop": true,
