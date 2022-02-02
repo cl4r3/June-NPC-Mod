@@ -2,7 +2,7 @@
   "Name": "June - Custom NPC (no music version)",
   "Author": "ch20youk",
   "Description": "June, a custom marriage candidate for Ridgeside Village.",
-  "Version": "1.1.2",
+  "Version": "1.1.3",
   "UniqueID": "ch20youk.JuneNPC",
   "UpdateKeys": [ "Nexus:10100" ],
   "ContentPackFor": {
