@@ -23,10 +23,6 @@
       "IsRequired": true
     },
     {
-       "UniqueID": "Platonymous.TMXLoader",
-       "IsRequired": true,
-    },
-    {
        "UniqueID": "DIGUS.MailFrameworkMod",
        "IsRequired": true,
     }
