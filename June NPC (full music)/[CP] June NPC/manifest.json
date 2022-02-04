@@ -25,6 +25,14 @@
     {
        "UniqueID": "DIGUS.MailFrameworkMod",
        "IsRequired": true,
+    },
+    {
+       "UniqueID": "aedenthorn.ExtraMapLayers",
+       "IsRequired": true,
+    },
+    {
+       "UniqueID": "Platonymous.TMXLoader",
+       "IsRequired": false,
     }
   ]
 }
