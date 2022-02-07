@@ -15,6 +15,10 @@
       "Name": "IsOddYear",
       "Value": "{{Query: {{Year}} % 2 = 1}}"
     },
+    {
+			"Name": "RandomNumber",
+			"Value": "{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}"
+		},
   ],
 
   "Changes": [
@@ -71,6 +75,17 @@
 			},
 			"Update": "OnLocationChange"
 		},
+    {
+        "LogName": "Custom NPC Exclusions - June unmet",
+        "Action": "EditData",
+        "Target": "Data/CustomNPCExclusions",
+        "When": {
+  				"HasSeenEvent": 94620000
+  			},
+        "Entries": {
+            "June": "Calendar"
+            }
+    },
     {
         "LogName": "Custom NPC Exclusions - June single out of town",
         "Action": "EditData",
@@ -215,17 +230,17 @@
 
         //---Spouse Room---//
     {
+        "LogName": "Load June Spouse Room",
+        "Action": "Load",
+        "Target": "Maps/JuneSpouseRoom",
+        "FromFile": "Assets/Maps/JuneSpouseRoom.tmx"
+    },
+    {
       "Action": "EditData",
       "Target": "Data/SpouseRooms",
       "Entries": {
           "June": "JuneSpouseRoom/0"
       }
-    },
-    {
-        "LogName": "Load June Spouse Room",
-        "Action": "Load",
-        "Target": "Maps/JuneSpouseRoom",
-        "FromFile": "Assets/Maps/JuneSpouseRoom.tmx"
     },
     {
 			"LogName": "June Spouse Room Text",
@@ -238,6 +253,30 @@
 				"JuneHouse.4": "{{i18n:i18n.june_house.4}}"
 			}
 		},
+
+        //---Spouse Patio---//
+    {
+        "LogName": "Load June Spouse Patio",
+        "Action": "Load",
+        "Target": "Maps/JuneSpousePatio",
+        "FromFile": "Assets/Maps/JuneSpousePatio.tmx"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/SpousePatios",
+      "When": { "Weather": "Sun, Wind, Snow" },
+      "Entries": {
+          "June": "JuneSpousePatio/0/35 35 35/0 0"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/SpousePatios",
+      "When": { "Weather": "Rain, Storm" },
+      "Entries": {
+          "June": "JuneSpousePatio/1/35 35 35/0 0"
+      }
+    },
 
         //---June's Room in Hotel---//
     {

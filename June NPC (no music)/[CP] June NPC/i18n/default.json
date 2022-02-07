@@ -358,6 +358,7 @@
 //-----------------
 
   "i18n.patio": "Sitting out here surrounded by all the flora and fauna always reminds me how grateful I am to have found this town, and you.$1",
+  "i18n.patio.2": "What am I reading? Oh, it's the novel adaption of the Solarian Chronicles!$1#$b#Have you read any of them? The lore itself takes up a whole book.$1",
   "i18n.spouseRoom": "Good morning, honey!$8#$b#I was going to play a bit, but I didn't want to wake you up.$1",
   "i18n.jobLeave": "Hi, honey. I'm off to work.$1#$b#If you need me, you know where to find me!$8",
   "i18n.jobReturn": "I'm home!$8#$b#Work was long, but I can never be down when I know I have you to come home to.$4",
