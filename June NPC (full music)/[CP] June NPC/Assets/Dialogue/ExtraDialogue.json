@@ -54,6 +54,15 @@
     }
   },
   {
+    "LogName": "June alternate patio dialogue",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/MarriageDialogueJune",
+    "When": { "RandomNumber": "{{Range: 0,4}}" },
+    "Entries": {
+      "patio_June": "{{i18n:i18n.patio.2}}",
+    }
+  },
+  {
     "LogName": "June romance dialogue",
     "Action": "EditData",
     "Target": "Characters/Dialogue/June",
