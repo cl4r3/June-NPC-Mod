@@ -316,6 +316,17 @@
       }
     },
 
+          //---Wedding Portrait---//
+    {
+      "Action": "EditImage",
+      "Target": "Maps/z_RSVspousePic",
+      "FromFile": "Assets/Images/Wedding_June.png",
+      "When": {
+        "Query: '{{Spouse}}' = 'June'": true
+      },
+      "Update": "OnLocationChange, OnTimeChange",
+    },
+
         //---Piano Music (music versions only)---//
     {
       "LogName": "June Music Data",
