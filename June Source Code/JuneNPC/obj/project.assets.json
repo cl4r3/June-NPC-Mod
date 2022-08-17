@@ -1967,11 +1967,11 @@
   "project": {
     "version": "1.1.1",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Clare Hanlon\\source\\repos\\JuneNPC\\JuneNPC\\JuneNPC.csproj",
+      "projectUniqueName": "C:\\Users\\Clare Hanlon\\Documents\\SDV stuff\\June-NPC-Mod\\June Source Code\\JuneNPC\\JuneNPC.csproj",
       "projectName": "JuneNPC",
-      "projectPath": "C:\\Users\\Clare Hanlon\\source\\repos\\JuneNPC\\JuneNPC\\JuneNPC.csproj",
+      "projectPath": "C:\\Users\\Clare Hanlon\\Documents\\SDV stuff\\June-NPC-Mod\\June Source Code\\JuneNPC\\JuneNPC.csproj",
       "packagesPath": "C:\\Users\\Clare Hanlon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Clare Hanlon\\source\\repos\\JuneNPC\\JuneNPC\\obj\\",
+      "outputPath": "C:\\Users\\Clare Hanlon\\Documents\\SDV stuff\\June-NPC-Mod\\June Source Code\\JuneNPC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Clare Hanlon\\AppData\\Roaming\\NuGet\\NuGet.Config",

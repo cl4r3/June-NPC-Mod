@@ -299,7 +299,18 @@
         "HasSeenEvent": 94620000,
         "HasMod": "Rafseazz.RSVCP"
       }
-    }
+    },
+
+          //---Wedding Portrait---//
+    {
+      "Action": "EditImage",
+      "Target": "Maps/z_RSVspousePic",
+      "FromFile": "Assets/Images/Wedding_June.png",
+      "When": {
+        "Query: '{{Spouse}}' = 'June'": true
+      },
+      "Update": "OnLocationChange, OnTimeChange",
+    },
 
   ]
 }
