@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "176QL40D3hooX+A7Me6XgBhrxXiHnHOUxCqgZ8HRj/0xcjs52gcd2ehoGxCSk6eNrAL2cKTjXyiDGYa5diry/w==",
+  "dgSpecHash": "BHNXxub7tw1ivMMXfH+e+W/eoJtuP1l83OlbPieNcLPE+8yvw2XDFHvZ2wlJjA23I0mhsOb9wwPqyV93vizBWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Clare Hanlon\\source\\repos\\JuneNPC\\JuneNPC\\JuneNPC.csproj",
+  "projectFilePath": "C:\\Users\\Clare Hanlon\\Documents\\SDV stuff\\June-NPC-Mod\\June Source Code\\JuneNPC\\JuneNPC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Clare Hanlon\\.nuget\\packages\\microsoft.build.framework\\16.10.0\\microsoft.build.framework.16.10.0.nupkg.sha512",
     "C:\\Users\\Clare Hanlon\\.nuget\\packages\\microsoft.build.utilities.core\\16.10.0\\microsoft.build.utilities.core.16.10.0.nupkg.sha512",
