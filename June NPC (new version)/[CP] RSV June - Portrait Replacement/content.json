@@ -1,0 +1,41 @@
+{
+  "Format": "1.24.0",
+
+  "ConfigSchema": {
+		"OriginalPortraits": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Original portraits for June."
+		},
+    "OriginalSprites": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Original sprites for June."
+		},
+  },
+
+  "Changes": [
+
+    {
+      "LogName": "June Sprites Replacement",
+      "Action": "EditImage",
+      "Target": "Characters/June, Characters/June_Beach",
+      "FromFile": "Assets/{{TargetWithoutPath}}_sprite.png",
+      "When": {
+				"OriginalSprites": true,
+				"HasFile:{{FromFile}}": true,
+		  }
+    },
+    {
+      "LogName": "June Portraits Replacement",
+      "Action": "EditImage",
+      "Target": "Portraits/June, Portraits/June_Beach",
+      "FromFile": "Assets/{{TargetWithoutPath}}_portrait.png",
+      "When": {
+				"OriginalPortraits": true,
+				"HasFile:{{FromFile}}": true,
+		  }
+    },
+
+  ]
+}

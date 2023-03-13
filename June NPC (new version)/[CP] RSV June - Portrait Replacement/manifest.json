@@ -1,0 +1,18 @@
+{
+  "Name": "June - Custom NPC Original Art",
+  "Author": "ch20youk",
+  "Description": "Implements the original art for RSV's romance candidate June.",
+  "Version": "2.0.0",
+  "UniqueID": "ch20youk.JuneNPC",
+  "UpdateKeys": [ "Nexus:10100" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Rafseazz.RSVCP",
+      "IsRequired": true,
+      "MinimumVersion": "2.0.0"
+    },
+  ]
+}
